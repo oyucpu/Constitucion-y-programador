@@ -5149,1446 +5149,59 @@ correcta: 0
         ];
 
         // ===== PREGUNTAS PROGRAMADOR =====
-        const preguntasProgramador = [
-            {
-                id: 1,
-                seccion: "Sistemas Operativos",
-                pregunta: "Los sistemas operativos:",
-                opciones: [
-                    "Planifican y supervisan la ejecución de los programas",
-                    "Controlan las operaciones de entrada y salida de datos",
-                    "Administran los recursos del ordenador",
-                    "Todas las respuestas son correctas"
-                ],
-                correcta: 3
-            },
-            {
-                id: 2,
-                seccion: "Sistemas Operativos",
-                pregunta: "En un sistema operativo un proceso es:",
-                opciones: [
-                    "El código ejecutable de un programa",
-                    "Cualquiera de las funciones básicas del sistema operativo",
-                    "Un sistema de gestión de ficheros",
-                    "Un programa en ejecución"
-                ],
-                correcta: 3
-            },
-            {
-                id: 3,
-                seccion: "Hardware",
-                pregunta: "Normalmente, la velocidad de giro de un disco duro es:",
-                opciones: ["Variable", "Constante", "Aleatoria", "Digital"],
-                correcta: 1
-            },
-            {
-                id: 4,
-                seccion: "Hardware",
-                pregunta: "El primer PC lo construyó:",
-                opciones: ["Amazon", "IBM", "Microsoft", "Apple"],
-                correcta: 1
-            },
-            {
-                id: 5,
-                seccion: "Ofimática",
-                pregunta: "¿Qué terminación tienen los archivos realizados con Excel?",
-                opciones: [".es", ".xls", ".doc", ".zip"],
-                correcta: 1
-            },
-            {
-                id: 6,
-                seccion: "Bases de Datos",
-                pregunta: "¿Qué es una clave primaria?",
-                opciones: [
-                    "Un campo que identifica de forma única cada registro",
-                    "Un campo para buscar datos",
-                    "Un tipo de consulta",
-                    "Una tabla"
-                ],
-                correcta: 0
-            },
-            {
-                id: 7,
-                seccion: "Bases de Datos",
-                pregunta: "¿Qué comando SQL se usa para seleccionar datos?",
-                opciones: ["INSERT", "UPDATE", "SELECT", "DELETE"],
-                correcta: 2
-            },
-            {
-                id: 8,
-                seccion: "Programación",
-                pregunta: "¿Qué significa HTML?",
-                opciones: [
-                    "HyperText Markup Language",
-                    "HighText Machine Language",
-                    "HyperTool Multi Language",
-                    "HomeTool Markup Language"
-                ],
-                correcta: 0
-            },
-            {
-                id: 9,
-                seccion: "Programación",
-                pregunta: "¿Qué es un algoritmo?",
-                opciones: [
-                    "Un lenguaje de programación",
-                    "Una secuencia de pasos para resolver un problema",
-                    "Un tipo de hardware",
-                    "Una base de datos"
-                ],
-                correcta: 1
-            },
-            {
-                id: 10,
-                seccion: "Redes",
-                pregunta: "¿Qué significa IP?",
-                opciones: [
-                    "Internet Protocol",
-                    "Internal Processor",
-                    "Information Provider",
-                    "Interface Protocol"
-                ],
-                correcta: 0
-            },
-			  {
-    id: 11,
-    seccion:"Informática/Técnología Digital",
-    pregunta: "El nombre de tecnología digital proviene de",
-    opciones: [
-      "De que el ordenador no tiene ningún tipo de dígitos",
-      "Que el ordenador solo trabaja con dígitos",
-      "De que el ordenador trabaja siempre que números pares.",
-      "Todas las opciones son incorrectas"
-    ],
-    respuesta: 1
-  },
-  {
-    id: 12,
-    seccion:"Informática",
-    pregunta: "En el modelo estructural de la máquina de Von Neumann",
-    opciones: [
-      "La unidad E/S se comunica bidireccionalmente con la unidad A/L",
-      "La unidad E/S se comunica bidireccionalmente con la unidad de control",
-      "La memoria principal se comunica bidireccionalmente con la unidad de control",
-      "La memoria principal se comunica tridimensionalmente con la unidad de control"
-    ],
-    respuesta: 0
-  },
-  {
-    id: 13,
-	seccion: "Hardware",
-    pregunta: "La memoria es el lugar donde",
-    opciones: [
-      "Se guardan las instrucciones",
-      "Se guardan los datos de programas",
-      "En ella se pueden leer y escribir todas las veces que se necesite",
-      "Todas las opciones son correctas"
-    ],
-    respuesta: 3
-  },
-  {
-    id: 14,
-    seccion: "Software",
-    pregunta: "En MS-DOS, la simulación de multitarea de realizaba",
-    opciones: [
-      "Manejando las interrupciones software",
-      "Manejando las interrupciones hardware",
-      "Manejando la DMA",
-      "Todas las opciones son incorrectas"
-    ],
-    respuesta: 0
-  },
-  {
-    id: 15,
-    seccion: "Software",
-    pregunta: "MS-DOS es un sistema operativo",
-    opciones: [
-      "Monoprocesador",
-      "De red",
-      "Distribuido",
-      "Multiprocesador"
-    ],
-    respuesta: 0
-  },
-  {
-    id: 16,
-    seccion: "Ofimática",
-    pregunta: "¿Qué terminación tiene aquellos archivos realizados con el Excel?",
-    opciones: [
-      "es",
-      "xls",
-      "doc",
-      "zip"
-    ],
-    respuesta: 1
-  },
-  {
-    id: 17,
-    seccion: "Programación / Lógica",
-    pregunta: "De las siguientes funciones, ¿cuál es tipo texto?",
-    opciones: [
-      "Función Contar. Si",
-      "Función encontrar",
-      "Función Contar",
-      "Función Residuo"
-    ],
-    respuesta: 1
-  },
-  {
-    id: 18,
-    seccion: "Ofimática",
-    pregunta: "En Excel, ¿Qué nombre reciben las celdas que se incrementan en número al arrastrar?",
-    opciones: [
-      "Relativas",
-      "Progresivas",
-      "Absolutas",
-      "Incrementadas"
-    ],
-    respuesta: 0
-  },
-  {
-    id: 19,
-    seccion: "Ofimática / Lógica",
-    pregunta: "¿Qué cuenta la función CONTAR de Excel?",
-    opciones: [
-      "El número de columnas rellenas",
-      "El número de celdas rellenas",
-      "El número de caracteres de una celda",
-      "El número de filas rellenas"
-    ],
-    respuesta: 1
-  },
-  {
-    id: 20,
-    seccion: "Ofimática",
-    pregunta: "¿Qué hace el signo \"&\" en Excel?",
-    opciones: [
-      "Copia",
-      "Une",
-      "Sustituye",
-      "Compara"
-    ],
-    respuesta: 1
-  },
-  {
-    id: 21,
-    seccion: "Bases de Datos",
-    pregunta: "¿Qué podremos introducir si en la máscara de entrada de un campo, en una base de datos, ponemos \"0\"?",
-    opciones: [
-      "Un número o una letra",
-      "Un número exclusivamente",
-      "Un signo",
-      "Nada"
-    ],
-    respuesta: 1
-  },
-  {
-    id: 22,
-    seccion: "Bases de Datos",
-    pregunta: "¿Qué nos permiten hacer los criterios de una consulta en una base de datos?",
-    opciones: [
-      "Filtrar información",
-      "Ordenar",
-      "Cambiar el diseño",
-      "Comparar"
-    ],
-    respuesta: 0
-  },
-  {
-    id: 23,
-    seccion: "Bases de Datos",
-    pregunta: "En una consulta de Access, ¿en función de cuántos campos podemos ordenar los datos?",
-    opciones: [
-      "De cuantos queramos",
-      "De uno",
-      "De dos",
-      "De cinco"
-    ],
-    respuesta: 0
-  },
-  {
-    id: 24,
-    seccion: "Programación",
-    pregunta: "¿Qué es el entorno de un trabajo?",
-    opciones: [
-      "El conjunto de utensilios necesarios para su ejecución",
-      "Un suceso que lo modifica",
-      "Es un lenguaje de programación",
-      "Ninguna de las anteriores"
-    ],
-    respuesta: 0
-  },
-  {
-    id: 25,
-    seccion: "Programación",
-    pregunta: "Los miembros claves del equipo del proyecto deben ser identificados y contratados según qué criterio:",
-    opciones: [
-      "Experiencia en las áreas identificadas del proyecto",
-      "Conocimiento o acceso a información vital para el proyecto",
-      "Facilidad de comunicación verbal y escrita, capacidad de investigación y otras habilidades necesarias",
-      "Todas las respuestas son correctas"
-    ],
-    respuesta: 3
-  },
-  {
-        "id": 26,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "Según el flujo de información los periféricos pueden ser:",
-        "opciones": [
-            "De entrada",
-            "De salida",
-            "Mixtos o entrada/salida",
-            "Todas las respuestas anteriores son válidas"
-        ],
-        "correcta": 3
-    },
+       const preguntasProgramador = [
     {
-        "id": 27,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "Señala cual periférico de los nombrados es exclusivamente de entrada",
-        "opciones": [
-            "Monitor",
-            "Disco duro",
-            "Impresora",
-            "Teclado"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 28,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "Señala qué tipo de impresora basa su funcionamiento en vaporizar y fundir tintas",
-        "opciones": [
-            "De inyección",
-            "De burbuja",
-            "De sublimación",
-            "Láser"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 29,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Qué significa el acrónimo PCL?",
-        "opciones": [
-            "Printer Casual Language",
-            "Printer Control List",
-            "Peripheral Control Language",
-            "Printer Control Language"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 30,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "Señala que interfaz no se usa habitualmente con las impresoras",
-        "opciones": [
-            "LPT",
-            "Puerto Serie",
-            "VGA",
-            "USB"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 31,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "Cuál de estas medidas se usa para medir la velocidad de impresión",
-        "opciones": [
-            "BPS",
-            "CPS",
-            "MB/S",
-            "MM/S"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 32,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cuál de los siguientes elementos no es un dispositivo periférico?",
-        "opciones": [
-            "La unidad de disco",
-            "La memoria caché",
-            "La pantalla",
-            "El teclado"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 33,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cuál de los siguientes parámetros no es un parámetro característico de un dispositivo periférico?",
-        "opciones": [
-            "La velocidad de transferencia",
-            "El tiempo de respuesta",
-            "El número de instrucciones por segundo procesadas",
-            "La forma y el tamaño"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 34,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cuál de los siguientes dispositivos periféricos se puede agrupar dentro de los periféricos de almacenamiento?",
-        "opciones": [
-            "Un adaptador de red local",
-            "Un escáner",
-            "Un lápiz óptico",
-            "Un disco duro"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 35,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cuál de estas afirmaciones sobre los controladores de E/S no es cierta?",
-        "opciones": [
-            "Realiza funciones de control y temporización para controlar el flujo de la información.",
-            "Almacena temporalmente datos que serán enviados al periférico en sí o bien utilizados por la CPU.",
-            "Se interpone entre el procesador y la parte mecánica del dispositivo periférico.",
-            "Ninguna de las anteriores es cierta."
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 36,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cuál de los siguientes registros no es propio del controlador de E/S de un dispositivo periférico?",
-        "opciones": [
-            "Registro de información",
-            "Registro de datos",
-            "Registro de control",
-            "Registro de estado"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 37,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "Cuando la CPU desea transmitir una orden al periférico, lo realiza escribiendo en",
-        "opciones": [
-            "el registro de E/S",
-            "el registro de estado",
-            "el registro de datos",
-            "el registro de control"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 38,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cuál de las siguientes funciones no pertenece a una transferencia de bloque?",
-        "opciones": [
-            "Realiza un almacenamiento temporal de los datos involucrados.",
-            "Se realiza por hardware entre el controlador del periférico y el procesador.",
-            "Se basa en transferencias elementales, que han de realizarse en el instante en el que el periférico lo necesite.",
-            "Detecta posibles errores, repitiendo la transferencia en caso necesario."
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 39,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "La duración de una transferencia elemental:",
-        "opciones": [
-            "establece la velocidad del dispositivo periférico",
-            "puede variar dependiendo del dato a transferir",
-            "no depende del periférico",
-            "depende del tamaño del buffer del controlador de E/S."
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 40,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿De cuál de las siguientes etapas de la transferencia no se encarga la CPU cuando la técnica de E/S utilizada es mediante interrupciones?",
-        "opciones": [
-            "Inicio de la operación",
-            "Sincronización",
-            "Transferencia",
-            "Finalización de la operación"
-        ],
-        "correcta": 1
-    },
-  {
-        "id": 41,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Qué permite la ejecución de la instrucción RETI?",
-        "opciones": [
-            "Saltar al código de la rutina de tratamiento de interrupción.",
-            "Notificar al periférico solicitando que se ha aceptado su petición de interrupción.",
-            "Restaurar los valores de los registros PC y RE después del tratamiento de una interrupción",
-            "Lanzar un ciclo de bus de reconocimiento de interrupción"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 42,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Quién se encarga en la técnica de vectorización de seleccionar a qué dispositivo se atiende cuando dos o más están pidiendo servicio?",
-        "opciones": [
-            "El hardware",
-            "El software",
-            "Tanto el hardware como el software",
-            "Ninguno de los dos"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 43,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "La tabla de vectores de interrupción:",
-        "opciones": [
-            "se emplea para almacenar si un periférico ha solicitado una petición de interrupción.",
-            "almacena la dirección de comienzo de la RTI de cada periférico.",
-            "guarda los puertos de E/S asignados a cada periférico.",
-            "contiene un puntero al buffer de cada periférico."
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 44,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cuál de las siguientes afirmaciones sobre el esquema de gestión encadenada no es cierta?",
-        "opciones": [
-            "La línea INT se activa siempre que uno o más periféricos la activen.",
-            "La línea INTA se conecta de forma encadenada a través de todos los periféricos.",
-            "Tiene el inconveniente de no poder conectar más de un número fijo de periféricos.",
-            "Establece una prioridad fija según el orden en que se conecten los periféricos."
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 45,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "En el esquema de gestión centralizada de prioridades:",
-        "opciones": [
-            "se posee una rutina principal de tratamiento de interrupciones que asigna prioridades a cada uno de los periféricos.",
-            "se pueden colocar tantos dispositivos periféricos como se deseen.",
-            "todos los periféricos se conectan a una única línea de interrupciones INT.",
-            "dichas prioridades son gestionadas mediante hardware."
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 46,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "En la transferencia mediante acceso directo a memoria, ¿quién se encarga de notificar a la CPU la finalización de la operación de E/S?",
-        "opciones": [
-            "El controlador DMA mediante una interrupción.",
-            "La memoria principal.",
-            "No es necesaria tal notificación.",
-            "La parte mecánica del dispositivo periférico."
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 47,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cuál de las siguientes opciones no corresponde a una modalidad de transferencia mediante acceso directo a memoria?",
-        "opciones": [
-            "DMA simple.",
-            "DMA gobernado por memoria principal.",
-            "DMA canal",
-            "DMA disperso"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 48,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Para qué sirve la activación de la señal BUSACK en la técnica de acceso directo a memoria?",
-        "opciones": [
-            "Para notificar a la CPU de que el controlador DMA de un periférico le solicita el uso del bus.",
-            "Para identificar al periférico que solicita la transferencia.",
-            "Para especificar la dirección de memoria principal que está implicada en la transferencia.",
-            "Ninguna de las anteriores."
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 49,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cuál de las siguientes informaciones no es proporcionada al controlador DMA durante el inicio de la operación en la técnica de acceso directo a memoria tradicional?",
-        "opciones": [
-            "La dirección del periférico.",
-            "El tipo de la operación",
-            "El número de datos a transferir.",
-            "La dirección de la RTI del periférico."
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 50,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cuál de las siguientes informaciones, utilizadas en la transferencia mediante canal de E/S con operaciones encadenadas, indica al canal de E/S que no hay más operaciones pendientes?",
-        "opciones": [
-            "El bit de interrupción.",
-            "El bit de encadenamiento.",
-            "El balance de la operación.",
-            "El tipo de la operación."
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 51,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Cuál es la principal utilidad de los ficheros?",
-        "opciones": [
-            "Consultar información",
-            "Guardar temporalmente información",
-            "Organizar jerárquicamente la información",
-            "Guardar de forma ordenada la información"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 52,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Qué es un fichero?",
-        "opciones": [
-            "Un conjunto de registros de diferente longitud",
-            "Una masa heterogénea de información formada por registros, que se dividen en campos",
-            "Una masa homogénea de información formada por registros, que se divide en campos",
-            "Una masa de información ordenada para poder ser consultada rápidamente"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 53,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Qué tipos de registro pueden identificarse dentro del concepto de registro?",
-        "opciones": [
-            "De tamaño fijo y de tamaño variable",
-            "Lógico y físico",
-            "Genérico y concreto",
-            "Genérico, lógico y teórico"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 54,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "Si todos los campos de un registro tienen longitud fija, ¿cómo será el registro?",
-        "opciones": [
-            "Obligatoriamente tiene que ser de longitud fija",
-            "Será obligatoriamente de longitud variable",
-            "Será un registro lógico de tamaño fijo",
-            "Depende, sí el número de campos es variable, tendrá un tamaño variable, si no, su tamaño será fijo"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 55,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Qué opción es menor, registro de longitud fija o variable?",
-        "opciones": [
-            "Es preferible usar registros de longitud variable, si se quiere ahorrar espacio",
-            "Es preferible usar registros de longitud variable, si se quieren acelera los accesos",
-            "Es preferible usar siempre registro de longitud fija",
-            "Es preferible usar registros de longitud fija, si se quiere ahorrar espacio"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 56,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Cuáles son los tipos de ficheros atendiendo a su utilización?",
-        "opciones": [
-            "Secuenciales, directos e indexados",
-            "Permanentes, de movimiento y de maniobras",
-            "Históricos y de situación",
-            "De tamaño fijo y variable"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 57,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "Normalmente, ¿Cuál es la operación más habitual que se realiza sobre un fichero?",
-        "opciones": [
-            "Modificar registros",
-            "Buscar registros",
-            "Escribir registros",
-            "Borrar registros"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 58,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Cuáles son los tipos de ficheros atendiendo a sus organización y modo de acceso?",
-        "opciones": [
-            "Secuenciales, directos e indexados",
-            "Permanentes, de movimientos y de maniobras",
-            "Históricos y de situación",
-            "De tamaño fijo y variables"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 59,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Por qué es conveniente tener ordenado un fichero secuencial?",
-        "opciones": [
-            "Porque encontrar un registro que se encuentra almacenado en el fichero es más rápido, en término medio, que si no está ordenado",
-            "Porque de esta forma es más sencillo crear nuevos registros",
-            "Porque es más rápido detectar que el dato que se esta buscando no está en el fichero",
-            "Porque así ocupa menos espacio"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 60,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "En un sistema de ficheros con acceso por clave, se conoce como lista invertida:",
-        "opciones": [
-            "Una lista en la que por cada valor del índice, se guardan los valores de la clave principal que contiene dicho valor.",
-            "Una lista en la que por cada entrada del valor de la clave principal se guardan los valores de índice que contiene.",
-            "Una lista en la que se almacena un valor de un índice y el de la clave principal asociada",
-            "Un segmento del índice activo que reside la memoria."
-        ],
-        "correcta": 0
-    },
-{
-    "id": 61,
-    "seccion": "Gestión de Ficheros",
-    "nivel": 1,
-    "pregunta": "Resultan útiles los ficheros secuenciales para programas que necesiten datos en tiempo real?",
-    "opciones": [
-        "Sí, pero siempre que estén ordenados",
-        "Si, son los que se usan en la práctica",
-        "No, para eso sólo se pueden usar ficheros particionados",
-        "No, son preferibles los ficheros directos"
-    ],
-    "correcta": 3
-},
-{
-        "id": 62,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Qué características tienen los ficheros almacenados en cinta magnética?",
-        "opciones": [
-            "No direccionales",
-            "Acceso secuencial",
-            "Organización contigua o consecutiva",
-            "Todas las anteriores son correctas"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 63,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "Dentro de las técnicas Hashing de búsquedas de elementos en ficheros, para evitar colisiones, existen dos técnicas generales con varios métodos, ¿Qué método NO corresponde a la técnica de direccionamiento abierto?",
-        "opciones": [
-            "Rehashing lineal",
-            "Rehashing doble",
-            "Rehashing lineal encadenado",
-            "Rehashing cuadrático"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 64,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "Señalara el enunciado FALSO respecto de las estructuras \"hash\":",
-        "opciones": [
-            "Las funciones \"hash\" han de producir distribuciones de las claves lo más uniformes posibles para evitar colisiones.",
-            "Entre las técnicas y funciones \"hash\" se encuentra: truncamiento, doblamiento y aritmética modular.",
-            "Las funciones \"hash\" son mejores si envían la mayoría de los casos a las primeras fila de la tabla \"hash\", ya que el recorrido de la tabla empieza siempre por su principio.",
-            "Las funciones \"hash\" deben ser sencillas para su rápida ejecución."
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 65,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Qué característica tiene que cumplir forzosamente una función hash?",
-        "opciones": [
-            "Debe dar posiciones distintas para claves distintas",
-            "Deber dar posiciones iguales para clave distintas",
-            "Debe dar la misma posición para la misma clave",
-            "Debe dar posiciones distintas para claves iguales"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 66,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Para que sirve una función hash cuando se habla de ficheros?",
-        "opciones": [
-            "Para nada. Solo tiene sentido en las tablas hash",
-            "Para acceder de forma directa al registro buscado, puesto que la función hash devuelve el registro buscado",
-            "Para insertar rápidamente un nuevo registro",
-            "Para acceder de forma directa al registro buscado, puesto que la función hash devuelve la posición del registro buscado"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 67,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Qué tipo de datos se guardan en un fichero histórico?",
-        "opciones": [
-            "Los que reflejan la situación del día a día",
-            "Guardan la información no actual procedente de situaciones anteriores",
-            "Guardan de forma indexada toda la información posible",
-            "Guardan el estado actual como si fuera una radiografía"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 68,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Qué son las claves de un fichero?",
-        "opciones": [
-            "Uno de los campos de los registros",
-            "El campo o campos por el que ese va a realizar una búsqueda directa o indexada",
-            "Los índices",
-            "Los descriptores del ficheros, que permiten reverenciarlo directamente"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 69,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿En que tipos de ficheros se utilizan índices para realizar búsquedas?",
-        "opciones": [
-            "Solo en ficheros secuenciales",
-            "Solo en los ficheros indexados",
-            "Ficheros directos e indexados",
-            "Sólo en los ficheros particionados"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 70,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Cuántos componentes suele tener un fichero indexado?",
-        "opciones": [
-            "Uno, donde se encuentre toda la información del fichero, puesto que los índices se almacenan en memoria principal",
-            "Dos: zona de almacenamiento de datos y zona de índices",
-            "Tres: zona de datos, zona de claves y zona de índices",
-            "Cuatro: zona de datos, zona de claves, zona de índices y zona de punteros"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 71,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Qué técnicas de indexado de los índices se puede usar en un fichero indexado?",
-        "opciones": [
-            "Indexado completo e indexado incompleto",
-            "Indexado completo e indexado jerárquico",
-            "Indexado completo e indexado indirecto",
-            "Indexado directo e indexado indirecto"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 72,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Qué tipos de ficheros deben usarse si se realizan accesos secuenciales?",
-        "opciones": [
-            "Sólo se pueden usar ficheros secuenciales",
-            "Se pueden usar ficheros secuenciales, directos o indexados, pero los mejores resultado se obtiene con los indexados",
-            "Es recomendable usar ficheros secuenciales, aunque también se pueden usar los indexados, puesto que son más fáciles de utilizar",
-            "Se deben usar ficheros particionados ordenados"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 73,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Para que se utilizan los ficheros de maniobras?",
-        "opciones": [
-            "Para que el programador almacene temporalmente resultados intermedios",
-            "Para que el programa almacene datos que servirán posteriormente para completar la solución de un problema",
-            "Para almacenar temporalmente un campo con el fin de actualizar más tarde un fichero histórico",
-            "Para almacena la situación de la información en un instante dado"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 74,
-        "seccion": "Gestión de Ficheros",
-        "nivel": 1,
-        "pregunta": "¿Cuál de las siguientes afirmaciones es cierta?",
-        "opciones": [
-            "Los ficheros permanentes son aquellos que permanecen a través del tiempo",
-            "Los ficheros básico se actualizan a partir de ficheros históricos",
-            "Los ficheros temporales también se denominan ficheros de situación",
-            "Los ficheros de movimiento tienes que ser ficheros secuenciales ordenados"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 75,
-        "seccion": "Bases de Datos",
-        "nivel": 1,
-        "pregunta": "En el modelo relacional. ¿Qué nombre recibe el operador que devuelve como resultado un subconjunto de tuplas de una relación que cumplen una determinada condición?",
-        "opciones": [
-            "Diferencia",
-            "Proyección",
-            "Selección",
-            "Ninguno de los operadores anteriores devuelve el subconjunto resultante indicado"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 76,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "¿Qué debemos verificar si nuestro equipo presenta problemas de encendido?",
-        "opciones": [
-            "La BIOS",
-            "La configuración del CD ROM",
-            "Los jumpers del Disco Duro",
-            "La fuente de alimentación"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 77,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "¿Qué verificaremos si nuestro equipo enciende pero no consigue arrancar el Sistema Operativo?",
-        "opciones": [
-            "El monitor",
-            "La fuente de alimentación",
-            "Los jumpers del Disco Duro",
-            "El puerto COM1"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 78,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "¿Qué realizaremos primero si nuestro equipo enciende pero no conseguimos visualizar nada en el monitor?",
-        "opciones": [
-            "Verificar si el monitor está encendido",
-            "Comprobar la configuración del CD ROM",
-            "Chequear los jumpers del Disco Duro",
-            "Testear la fuente de alimentación"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 79,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "Que deberíamos realizar para que en caso de que nuestro dispositivo principal de almacenamiento sufra una avería, sea posible contar con la mayor parte de la información necesaria para continuar con las actividades rutinarias",
-        "opciones": [
-            "Una limpieza del registro",
-            "Una desfragmentación de datos",
-            "Un volcado de la memoria",
-            "Una copia de seguridad"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 80,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "Si hemos formateado nuestro disco duro accidentalmente y no tenemos copia de seguridad. ¿podemos recuperar la información?",
-        "opciones": [
-            "Sí, siempre que no hayamos escrito en la zona de la información",
-            "Sí, siempre que nuestra fuente de alimentación no haya fallado",
-            "No, sin copia de seguridad no podemos hacer nada",
-            "Sí, siempre que contratemos a un servicio de recuperación de datos"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 81,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "¿Cuál de estos programas es más necesario de cara a un buen mantenimiento preventivo?",
-        "opciones": [
-            "Un antivirus",
-            "Un procesador de textos",
-            "Un programa de visualización de imágenes",
-            "Un navegador"
-        ],
-        "correcta": 0
-    },
-	{
-        "id": 82,
-        "seccion": "Seguridad Informática",
-        "nivel": 1,
-        "pregunta": "De las siguientes, cuales son técnicas de análisis y detección de virus",
-        "opciones": [
-            "Escaneo de Firmas",
-            "Chequeo de Integridad",
-            "Análisis Heurístico",
-            "Todas las anteriores"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 83,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "¿Qué software tenemos que ejecutar para que todos los fragmentos del disco duro estén físicamente más cerca y en forma consecutiva, aumentando la velocidad de lectura?",
-        "opciones": [
-            "Desfragmentador de disco",
-            "Recuperador de sectores defectuosos",
-            "Reanimador de disco duro",
-            "Acelerador de disco"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 84,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "¿Con que software de los nombrados detectaremos y repararemos, en su caso, errores lógicos y físicos en los discos duros de nuestro ordenador?",
-        "opciones": [
-            "Wordperfect",
-            "Excel 2013",
-            "Scandisk",
-            "Registry editor"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 85,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "El Software de (completar con respuesta) me permite revisar que mi equipo esté funcionando correctamente para evitar posibles daños",
-        "opciones": [
-            "Diagnóstico",
-            "Respaldo",
-            "Análisis heurístico",
-            "Recuperación"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 86,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "El mantenimiento preventivo…",
-        "opciones": [
-            "Tiene el equipo a punto para evitar fallos",
-            "Corrige los fallos que se han producido",
-            "Detecta las necesidades del usuario para proporcionarle software",
-            "Todas las anteriores"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 87,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "Dí cuáles son las ventajas del mantenimiento preventivo",
-        "opciones": [
-            "Disminución del tiempo de parada de los equipos",
-            "Mayor duración de los equipos",
-            "Menor costo de las reparaciones",
-            "Todas las anteriores"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 88,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "De estos objetivos, ¿cuáles se consiguen con un correcto mantenimiento preventivo?",
-        "opciones": [
-            "Mayor tiempo entre fallos",
-            "Mayor tiempo de vida del equipo",
-            "Menos fallos",
-            "Todas las anteriores"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 89,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "¿Por qué debemos tener siempre nuestro equipo limpio de polvo?",
-        "opciones": [
-            "Porque el polvo puede hacer que el ventilador del micro gire más lento o no gire",
-            "Porque la mezcla del polvo con el ambiente húmedo hace que este se convierta en un magnífico conductor provocando fallos en componentes del equipo",
-            "No hace falta tener limpio el equipo.",
-            "a y b son ciertas"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 90,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cuál de estos ratones necesita un menor mantenimiento?",
-        "opciones": [
-            "Ratón mecánico PS2",
-            "Ratón mecánico USB",
-            "Ratón óptico",
-            "Ratón mecánico inalámbrico"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 91,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Qué deberíamos llevar antes de abrir un equipo informático para evitar daños en el mismo?",
-        "opciones": [
-            "Unas gafas protectoras",
-            "Unas gafas de cazoleta",
-            "Un destornillador de estrella",
-            "Una pulsera antiestática"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 92,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "Cuál de los siguientes términos no se considera un tipo de copia de seguridad",
-        "opciones": [
-            "Incremental",
-            "Diferencial",
-            "Alterna",
-            "Completa"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 93,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "¿Qué es fundamental para un correcto mantenimiento preventivo?",
-        "opciones": [
-            "La rápida actuación en cuanto se produzca un fallo",
-            "Avisar al técnico encargado para la reinstalación del software que falla",
-            "Llevar siempre un destornillador phillips",
-            "La verificación periódica de los componentes software y hardware del equipo informático"
-        ],
-        "correcta": 3
-    },
-    {
-        "id": 94,
-        "seccion": "Mantenimiento Informático",
-        "nivel": 1,
-        "pregunta": "¿Cuál de estas acciones no es necesaria para un correcto mantenimiento preventivo?",
-        "opciones": [
-            "Desfragmentar el disco duro",
-            "Instalar un antivirus",
-            "Instalar un compresor",
-            "Eliminar archivos temporales"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 95,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "Que habrá que comprobar en la BIOS para arrancar nuestro equipo con un CD de recuperación",
-        "opciones": [
-            "Que la hora es correcta",
-            "El orden de arranque de los dispositivos",
-            "Que la versión de la BIOS es la última",
-            "Ninguna de las anteriores"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 96,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Qué es recomendable tener para proteger a nuestro equipo informático de caídas en la red eléctrica?",
-        "opciones": [
-            "Un transformador de 220V",
-            "Un SAI",
-            "Una regleta con múltiples conectores",
-            "Todas las anteriores"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 97,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "Que es POST, si estamos hablando de la BIOS",
-        "opciones": [
-            "El test que realiza la BIOS a los dispositivos al arrancar",
-            "Power Over Simple Task",
-            "El mensaje de error si no consigue arrancar la BIOS",
-            "Ninguna de las anteriores"
-        ],
-        "correcta": 0
-    },
-    {
-        "id": 98,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "Si estamos usando el término ZIF, ¿de qué componente estamos hablando?",
-        "opciones": [
-            "Disco duro",
-            "Placa Base",
-            "Memoria",
-            "Tarjeta gráfica"
-        ],
-        "correcta": 1
-    },
-    {
-        "id": 99,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "Si la fecha de la BIOS es incorrecta cada vez que arrancamos el ordenador, ¿qué es lo más probable que esté pasando?",
-        "opciones": [
-            "Que falle el arranque",
-            "Que no funcione el teclado",
-            "Que se haya agotado la pila de la placa base",
-            "Nada de lo anterior"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 100,
-        "seccion": "Hardware",
-        "nivel": 1,
-        "pregunta": "¿Cómo se pueden configurar normalmente los discos IDE para usarlos como maestro o esclavo?",
-        "opciones": [
-            "Entrando en el software que acompaña al disco duro",
-            "Desde Windows",
-            "Con unos jumpers del propio disco duro",
-            "Todas las anteriores son ciertas"
-        ],
-        "correcta": 2
-    },
-    {
-        "id": 101,
-        "seccion": "Programación Básica",
-        "nivel": 1,
-        "pregunta": "¿Qué significa HTML?",
-        "opciones": [
-            "HyperText Markup Language",
-            "HighText Machine Language",
-            "HyperTool Multi Language",
-            "HomeTool Markup Language"
-        ],
-        "correcta": 0
-    },
-    {
-        id: 101,
-        seccion: "Programación Básica",
+        id: 1,
+        seccion: "Sistemas Operativos",
         nivel: 1,
-        pregunta: "¿Qué significa HTML?",
+        pregunta: "Los sistemas operativos:",
         opciones: [
-            "HyperText Markup Language",
-            "HighText Machine Language",
-            "HyperTool Multi Language",
-            "HomeTool Markup Language"
+            "Planifican y supervisan la ejecución de los programas",
+            "Controlan las operaciones de entrada y salida de datos",
+            "Administran los recursos del ordenador",
+            "Todas las respuestas son correctas"
         ],
-        correcta: 0
+        correcta: 3
     },
     {
-        id: 102,
-        seccion: "Programación Básica",
+        id: 2,
+        seccion: "Sistemas Operativos",
         nivel: 1,
-        pregunta: "¿Cuál de las siguientes es una forma correcta de declarar una variable en JavaScript moderno?",
+        pregunta: "En un sistema operativo un proceso es:",
         opciones: [
-            "var x = 10;",
-            "let x = 10;",
-            "int x = 10;",
-            "variable x = 10;"
+            "El código ejecutable de un programa",
+            "Cualquiera de las funciones básicas del sistema operativo",
+            "Un sistema de gestión de ficheros",
+            "Un programa en ejecución"
         ],
+        correcta: 3
+    },
+    {
+        id: 3,
+        seccion: "Hardware",
+        nivel: 1,
+        pregunta: "Normalmente, la velocidad de giro de un disco duro es:",
+        opciones: ["Variable", "Constante", "Aleatoria", "Digital"],
         correcta: 1
     },
     {
-        id: 103,
-        seccion: "Bases de Datos",
+        id: 4,
+        seccion: "Hardware",
         nivel: 1,
-        pregunta: "¿Qué significa SQL?",
-        opciones: [
-            "Structured Query Language",
-            "Simple Query Language",
-            "Sequential Query Language",
-            "Standard Query Language"
-        ],
-        correcta: 0
-    },
-    {
-        id: 104,
-        seccion: "Algoritmos y Estructuras",
-        nivel: 2,
-        pregunta: "¿Cuál es la complejidad temporal promedio de QuickSort?",
-        opciones: [
-            "O(n²)",
-            "O(n log n)",
-            "O(n)",
-            "O(log n)"
-        ],
+        pregunta: "El primer PC lo construyó:",
+        opciones: ["Amazon", "IBM", "Microsoft", "Apple"],
         correcta: 1
     },
     {
-        id: 105,
-        seccion: "Programación Orientada a Objetos",
-        nivel: 2,
-        pregunta: "¿Qué principio de la POO se refiere a que una clase puede tener múltiples formas?",
-        opciones: [
-            "Encapsulamiento",
-            "Herencia",
-            "Polimorfismo",
-            "Abstracción"
-        ],
-        correcta: 2
-    },
-    {
-        id: 106,
-        seccion: "Lenguajes de Programación",
+        id: 5,
+        seccion: "Ofimática",
         nivel: 1,
-        pregunta: "¿En qué lenguaje se utiliza principalmente la palabra clave 'async' y 'await'?",
-        opciones: ["Python", "Java", "JavaScript", "C++"],
-        correcta: 2
-    },
-    {
-        id: 107,
-        seccion: "Bases de Datos",
-        nivel: 2,
-        pregunta: "¿Qué tipo de JOIN devuelve todos los registros de la tabla izquierda, aunque no haya coincidencia en la derecha?",
-        opciones: [
-            "INNER JOIN",
-            "LEFT JOIN",
-            "RIGHT JOIN",
-            "FULL JOIN"
-        ],
+        pregunta: "¿Qué terminación tienen los archivos realizados con Excel?",
+        opciones: [".es", ".xls", ".doc", ".zip"],
         correcta: 1
     },
     {
-        id: 108,
-        seccion: "Programación Web",
-        nivel: 2,
-        pregunta: "¿Qué propiedad de CSS se usa para centrar un elemento horizontalmente con Flexbox?",
-        opciones: [
-            "justify-content: center;",
-            "align-items: center;",
-            "text-align: center;",
-            "margin: auto;"
-        ],
-        correcta: 0
-    },
-	{
-        id: 109,
-        seccion: "Programación Básica",
-        nivel: 1,
-        pregunta: "¿Qué es un algoritmo?",
-        opciones: [
-            "Un lenguaje de programación",
-            "Una secuencia de pasos para resolver un problema",
-            "Un tipo de hardware",
-            "Una base de datos"
-        ],
-        correcta: 1
-    },
-    {
-        id: 110,
-        seccion: "Programación Básica",
-        nivel: 1,
-        pregunta: "¿Cuál es el primer paso en el ciclo de vida del desarrollo de software?",
-        opciones: [
-            "Codificación",
-            "Análisis de requisitos",
-            "Pruebas",
-            "Despliegue"
-        ],
-        correcta: 1
-    },
-    {
-        id: 111,
-        seccion: "Programación Básica",
-        nivel: 2,
-        pregunta: "¿Qué representa el pseudocódigo?",
-        opciones: [
-            "Código ejecutable",
-            "Descripción informal de un algoritmo",
-            "Un diagrama de flujo",
-            "Una variable en memoria"
-        ],
-        correcta: 1
-    },
-    {
-        id: 112,
-        seccion: "Programación Básica",
-        nivel: 1,
-        pregunta: "¿Qué es una variable?",
-        opciones: [
-            "Un valor constante",
-            "Un espacio en memoria para almacenar datos",
-            "Una función",
-            "Un bucle"
-        ],
-        correcta: 1
-    },
-    {
-        id: 113,
-        seccion: "Programación Básica",
-        nivel: 2,
-        pregunta: "¿Cuál es la diferencia entre un compilador y un intérprete?",
-        opciones: [
-            "El compilador traduce todo el código de una vez; el intérprete línea por línea",
-            "Son lo mismo",
-            "El intérprete traduce todo el código de una vez",
-            "Ninguno traduce código"
-        ],
-        correcta: 0
-    },
-    // ... (Continúo con más en la misma sección, pero para brevedad en esta respuesta, resumo: generé 100 en Programación Básica, 100 en Bases de Datos, etc.)
-    // Nota: En el código real, expandiría con todas, pero aquí muestro patrón. Para el archivo completo, asume que se genera similarmente.
-
-    // Para no alargar esta respuesta infinitamente (500 son muchas), aquí tienes un patrón extensible. En la práctica, el archivo sería ~50KB, pero te lo resumo con 20 ejemplos adicionales y te digo cómo completarlo.
-
-    {
-        id: 128,
+        id: 6,
         seccion: "Bases de Datos",
         nivel: 1,
         pregunta: "¿Qué es una clave primaria?",
@@ -6601,209 +5214,1603 @@ correcta: 0
         correcta: 0
     },
     {
-        id: 129,
+        id: 7,
         seccion: "Bases de Datos",
-        nivel: 2,
+        nivel: 1,
         pregunta: "¿Qué comando SQL se usa para seleccionar datos?",
         opciones: ["INSERT", "UPDATE", "SELECT", "DELETE"],
         correcta: 2
     },
     {
-        id: 130,
-        seccion: "Algoritmos y Estructuras",
-        nivel: 3,
-        pregunta: "¿Qué estructura de datos se usa para FIFO (First In, First Out)?",
-        opciones: [
-            "Pila",
-            "Cola",
-            "Árbol",
-            "Lista enlazada"
-        ],
-        correcta: 1
-    },
-    {
-        id: 131,
-        seccion: "Programación Orientada a Objetos",
-        nivel: 2,
-        pregunta: "¿Qué es la herencia en POO?",
-        opciones: [
-            "Ocultar detalles internos",
-            "Una clase hija hereda propiedades de la padre",
-            "Ejecutar métodos en tiempo de ejecución",
-            "Crear múltiples instancias"
-        ],
-        correcta: 1
-    },
-    {
-        id: 132,
-        seccion: "Lenguajes de Programación",
+        id: 8,
+        seccion: "Programación",
         nivel: 1,
-        pregunta: "¿Qué lenguaje es interpretado por defecto?",
-        opciones: ["C++", "Java", "Python", "Rust"],
-        correcta: 2
-    },
-    {
-        id: 133,
-        seccion: "Programación Web",
-        nivel: 2,
-        pregunta: "¿Qué es JavaScript usado para?",
+        pregunta: "¿Qué significa HTML?",
         opciones: [
-            "Estilos visuales",
-            "Lógica del lado cliente",
-            "Estructura HTML",
-            "Almacenamiento de datos"
+            "HyperText Markup Language",
+            "HighText Machine Language",
+            "HyperTool Multi Language",
+            "HomeTool Markup Language"
         ],
-        correcta: 1
+        correcta: 0
     },
     {
-        id: 134,
-        seccion: "Redes",
+        id: 9,
+        seccion: "Programación",
         nivel: 1,
-        pregunta: "¿Qué es el protocolo HTTP?",
+        pregunta: "¿Qué es un algoritmo?",
         opciones: [
-            "Para transferir archivos",
-            "Para comunicación web",
-            "Para correo electrónico",
-            "Para bases de datos"
-        ],
-        correcta: 1
-    },
-    {
-        id: 135,
-        seccion: "Seguridad Informática",
-        nivel: 2,
-        pregunta: "¿Qué es un firewall?",
-        opciones: [
-            "Un virus",
-            "Un sistema de protección contra accesos no autorizados",
             "Un lenguaje de programación",
+            "Una secuencia de pasos para resolver un problema",
+            "Un tipo de hardware",
             "Una base de datos"
         ],
         correcta: 1
     },
     {
-        id: 136,
-        seccion: "Sistemas Operativos",
+        id: 10,
+        seccion: "Redes",
         nivel: 1,
-        pregunta: "¿Qué es el kernel en un SO?",
+        pregunta: "¿Qué significa IP?",
         opciones: [
-            "La interfaz gráfica",
-            "El núcleo del sistema operativo",
-            "Un programa de usuario",
-            "Un dispositivo de hardware"
+            "Internet Protocol",
+            "Internal Processor",
+            "Information Provider",
+            "Interface Protocol"
         ],
-        correcta: 1
+        correcta: 0
     },
     {
-        id: 137,
-        seccion: "Ofimática",
+        id: 11,
+        seccion: "Informática/Tecnología Digital",
         nivel: 1,
-        pregunta: "¿Qué función de Excel suma valores?",
-        opciones: ["AVERAGE", "SUM", "COUNT", "MAX"],
-        correcta: 1
-    },
-    {
-        id: 138,
-        seccion: "Programación Básica",
-        nivel: 3,
-        pregunta: "¿Qué es recursividad?",
+        pregunta: "El nombre de tecnología digital proviene de",
         opciones: [
-            "Un bucle infinito",
-            "Una función que se llama a sí misma",
-            "Una variable global",
-            "Un error de compilación"
+            "De que el ordenador no tiene ningún tipo de dígitos",
+            "Que el ordenador solo trabaja con dígitos",
+            "De que el ordenador trabaja siempre que números pares.",
+            "Todas las opciones son incorrectas"
         ],
         correcta: 1
     },
     {
-        id: 139,
-        seccion: "Bases de Datos",
-        nivel: 3,
-        pregunta: "¿Qué es normalización?",
-        opciones: [
-            "Aumentar el tamaño de la BD",
-            "Reducir redundancia en tablas",
-            "Encriptar datos",
-            "Crear índices"
-        ],
-        correcta: 1
-    },
-    {
-        id: 140,
-        seccion: "Algoritmos y Estructuras",
+        id: 12,
+        seccion: "Informática",
         nivel: 2,
-        pregunta: "¿Qué algoritmo busca en un array ordenado eficientemente?",
-        opciones: ["Búsqueda lineal", "Búsqueda binaria", "Ordenamiento burbuja", "Inserción"],
-        correcta: 1
+        pregunta: "En el modelo estructural de la máquina de Von Neumann",
+        opciones: [
+            "La unidad E/S se comunica bidireccionalmente con la unidad A/L",
+            "La unidad E/S se comunica bidireccionalmente con la unidad de control",
+            "La memoria principal se comunica bidireccionalmente con la unidad de control",
+            "La memoria principal se comunica tridimensionalmente con la unidad de control"
+        ],
+        correcta: 0
     },
-	    {
-        id: 141,
+    {
+        id: 13,
         seccion: "Hardware",
         nivel: 1,
-        pregunta: "¿Qué componente del ordenador se encarga de ejecutar las instrucciones?",
+        pregunta: "La memoria es el lugar donde",
         opciones: [
-            "Memoria RAM",
-            "Procesador (CPU)",
-            "Disco duro",
-            "Tarjeta gráfica"
+            "Se guardan las instrucciones",
+            "Se guardan los datos de programas",
+            "En ella se pueden leer y escribir todas las veces que se necesite",
+            "Todas las opciones son correctas"
         ],
-        correcta: 1
+        correcta: 3
     },
     {
-        id: 142,
-        seccion: "Redes",
+        id: 14,
+        seccion: "Software",
         nivel: 2,
-        pregunta: "¿Qué protocolo se usa para la transferencia segura de archivos?",
+        pregunta: "En MS-DOS, la simulación de multitarea de realizaba",
         opciones: [
-            "HTTP",
-            "FTP",
-            "SFTP",
-            "SMTP"
+            "Manejando las interrupciones software",
+            "Manejando las interrupciones hardware",
+            "Manejando la DMA",
+            "Todas las opciones son incorrectas"
         ],
-        correcta: 2
+        correcta: 0
     },
     {
-        id: 143,
-        seccion: "Seguridad Informática",
-        nivel: 2,
-        pregunta: "¿Qué es un ataque de phishing?",
+        id: 15,
+        seccion: "Software",
+        nivel: 1,
+        pregunta: "MS-DOS es un sistema operativo",
         opciones: [
-            "Un virus que encripta archivos",
-            "Suplantación de identidad para obtener datos personales",
-            "Sobrecarga del servidor",
-            "Inyección de código SQL"
+            "Monoprocesador",
+            "De red",
+            "Distribuido",
+            "Multiprocesador"
         ],
-        correcta: 1
+        correcta: 0
     },
     {
-        id: 144,
+        id: 16,
         seccion: "Ofimática",
         nivel: 1,
-        pregunta: "En Excel, ¿qué atajo de teclado guarda el documento?",
+        pregunta: "¿Qué terminación tiene aquellos archivos realizados con el Excel?",
         opciones: [
-            "Ctrl + P",
-            "Ctrl + S",
-            "Ctrl + C",
-            "Ctrl + V"
+            "es",
+            "xls",
+            "doc",
+            "zip"
         ],
         correcta: 1
     },
     {
-        id: 145,
+        id: 17,
+        seccion: "Programación / Lógica",
+        nivel: 2,
+        pregunta: "De las siguientes funciones, ¿cuál es tipo texto?",
+        opciones: [
+            "Función Contar. Si",
+            "Función encontrar",
+            "Función Contar",
+            "Función Residuo"
+        ],
+        correcta: 1
+    },
+    {
+        id: 18,
+        seccion: "Ofimática",
+        nivel: 2,
+        pregunta: "En Excel, ¿Qué nombre reciben las celdas que se incrementan en número al arrastrar?",
+        opciones: [
+            "Relativas",
+            "Progresivas",
+            "Absolutas",
+            "Incrementadas"
+        ],
+        correcta: 0
+    },
+    {
+        id: 19,
+        seccion: "Ofimática / Lógica",
+        nivel: 2,
+        pregunta: "¿Qué cuenta la función CONTAR de Excel?",
+        opciones: [
+            "El número de columnas rellenas",
+            "El número de celdas rellenas",
+            "El número de caracteres de una celda",
+            "El número de filas rellenas"
+        ],
+        correcta: 1
+    },
+    {
+        id: 20,
+        seccion: "Ofimática",
+        nivel: 1,
+        pregunta: "¿Qué hace el signo \"&\" en Excel?",
+        opciones: [
+            "Copia",
+            "Une",
+            "Sustituye",
+            "Compara"
+        ],
+        correcta: 1
+    },
+    {
+        id: 21,
+        seccion: "Bases de Datos",
+        nivel: 2,
+        pregunta: "¿Qué podremos introducir si en la máscara de entrada de un campo, en una base de datos, ponemos \"0\"?",
+        opciones: [
+            "Un número o una letra",
+            "Un número exclusivamente",
+            "Un signo",
+            "Nada"
+        ],
+        correcta: 1
+    },
+    {
+        id: 22,
+        seccion: "Bases de Datos",
+        nivel: 1,
+        pregunta: "¿Qué nos permiten hacer los criterios de una consulta en una base de datos?",
+        opciones: [
+            "Filtrar información",
+            "Ordenar",
+            "Cambiar el diseño",
+            "Comparar"
+        ],
+        correcta: 0
+    },
+    {
+        id: 23,
+        seccion: "Bases de Datos",
+        nivel: 2,
+        pregunta: "En una consulta de Access, ¿en función de cuántos campos podemos ordenar los datos?",
+        opciones: [
+            "De cuantos queramos",
+            "De uno",
+            "De dos",
+            "De cinco"
+        ],
+        correcta: 0
+    },
+    {
+        id: 24,
         seccion: "Programación",
         nivel: 1,
-        pregunta: "¿Qué estructura se usa para tomar decisiones en programación?",
-        opciones: ["for", "while", "if", "switch"],
+        pregunta: "¿Qué es el entorno de un trabajo?",
+        opciones: [
+            "El conjunto de utensilios necesarios para su ejecución",
+            "Un suceso que lo modifica",
+            "Es un lenguaje de programación",
+            "Ninguna de las anteriores"
+        ],
+        correcta: 0
+    },
+    {
+        id: 25,
+        seccion: "Programación",
+        nivel: 2,
+        pregunta: "Los miembros claves del equipo del proyecto deben ser identificados y contratados según qué criterio:",
+        opciones: [
+            "Experiencia en las áreas identificadas del proyecto",
+            "Conocimiento o acceso a información vital para el proyecto",
+            "Facilidad de comunicación verbal y escrita, capacidad de investigación y otras habilidades necesarias",
+            "Todas las respuestas son correctas"
+        ],
+        correcta: 3
+    },
+    {
+        id: 26,
+        seccion: "Hardware",
+        nivel: 1,
+        pregunta: "Según el flujo de información los periféricos pueden ser:",
+        opciones: [
+            "De entrada",
+            "De salida",
+            "Mixtos o entrada/salida",
+            "Todas las respuestas anteriores son válidas"
+        ],
+        correcta: 3
+    },
+    {
+        id: 27,
+        seccion: "Hardware",
+        nivel: 1,
+        pregunta: "Señala cual periférico de los nombrados es exclusivamente de entrada",
+        opciones: [
+            "Monitor",
+            "Disco duro",
+            "Impresora",
+            "Teclado"
+        ],
+        correcta: 3
+    },
+    {
+        id: 28,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "Señala qué tipo de impresora basa su funcionamiento en vaporizar y fundir tintas",
+        opciones: [
+            "De inyección",
+            "De burbuja",
+            "De sublimación",
+            "Láser"
+        ],
         correcta: 2
     },
     {
-        id: 146,
-        seccion: "Bases de Datos",
+        id: 29,
+        seccion: "Hardware",
         nivel: 1,
-        pregunta: "¿Qué comando SQL actualiza registros en una tabla?",
-        opciones: ["SELECT", "UPDATE", "INSERT", "DELETE"],
+        pregunta: "¿Qué significa el acrónimo PCL?",
+        opciones: [
+            "Printer Casual Language",
+            "Printer Control List",
+            "Peripheral Control Language",
+            "Printer Control Language"
+        ],
+        correcta: 3
+    },
+    {
+        id: 30,
+        seccion: "Hardware",
+        nivel: 1,
+        pregunta: "Señala que interfaz no se usa habitualmente con las impresoras",
+        opciones: [
+            "LPT",
+            "Puerto Serie",
+            "VGA",
+            "USB"
+        ],
+        correcta: 2
+    },
+    {
+        id: 31,
+        seccion: "Hardware",
+        nivel: 1,
+        pregunta: "Cuál de estas medidas se usa para medir la velocidad de impresión",
+        opciones: [
+            "BPS",
+            "CPS",
+            "MB/S",
+            "MM/S"
+        ],
         correcta: 1
     },
+    {
+        id: 32,
+        seccion: "Hardware",
+        nivel: 1,
+        pregunta: "¿Cuál de los siguientes elementos no es un dispositivo periférico?",
+        opciones: [
+            "La unidad de disco",
+            "La memoria caché",
+            "La pantalla",
+            "El teclado"
+        ],
+        correcta: 1
+    },
+    {
+        id: 33,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "¿Cuál de los siguientes parámetros no es un parámetro característico de un dispositivo periférico?",
+        opciones: [
+            "La velocidad de transferencia",
+            "El tiempo de respuesta",
+            "El número de instrucciones por segundo procesadas",
+            "La forma y el tamaño"
+        ],
+        correcta: 2
+    },
+    {
+        id: 34,
+        seccion: "Hardware",
+        nivel: 1,
+        pregunta: "¿Cuál de los siguientes dispositivos periféricos se puede agrupar dentro de los periféricos de almacenamiento?",
+        opciones: [
+            "Un adaptador de red local",
+            "Un escáner",
+            "Un lápiz óptico",
+            "Un disco duro"
+        ],
+        correcta: 3
+    },
+    {
+        id: 35,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "¿Cuál de estas afirmaciones sobre los controladores de E/S no es cierta?",
+        opciones: [
+            "Realiza funciones de control y temporización para controlar el flujo de la información.",
+            "Almacena temporalmente datos que serán enviados al periférico en sí o bien utilizados por la CPU.",
+            "Se interpone entre el procesador y la parte mecánica del dispositivo periférico.",
+            "Ninguna de las anteriores es cierta."
+        ],
+        correcta: 3
+    },
+    {
+        id: 36,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "¿Cuál de los siguientes registros no es propio del controlador de E/S de un dispositivo periférico?",
+        opciones: [
+            "Registro de información",
+            "Registro de datos",
+            "Registro de control",
+            "Registro de estado"
+        ],
+        correcta: 0
+    },
+    {
+        id: 37,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "Cuando la CPU desea transmitir una orden al periférico, lo realiza escribiendo en",
+        opciones: [
+            "el registro de E/S",
+            "el registro de estado",
+            "el registro de datos",
+            "el registro de control"
+        ],
+        correcta: 3
+    },
+    {
+        id: 38,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "¿Cuál de las siguientes funciones no pertenece a una transferencia de bloque?",
+        opciones: [
+            "Realiza un almacenamiento temporal de los datos involucrados.",
+            "Se realiza por hardware entre el controlador del periférico y el procesador.",
+            "Se basa en transferencias elementales, que han de realizarse en el instante en el que el periférico lo necesite.",
+            "Detecta posibles errores, repitiendo la transferencia en caso necesario."
+        ],
+        correcta: 1
+    },
+    {
+        id: 39,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "La duración de una transferencia elemental:",
+        opciones: [
+            "establece la velocidad del dispositivo periférico",
+            "puede variar dependiendo del dato a transferir",
+            "no depende del periférico",
+            "depende del tamaño del buffer del controlador de E/S."
+        ],
+        correcta: 2
+    },
+    {
+        id: 40,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "¿De cuál de las siguientes etapas de la transferencia no se encarga la CPU cuando la técnica de E/S utilizada es mediante interrupciones?",
+        opciones: [
+            "Inicio de la operación",
+            "Sincronización",
+            "Transferencia",
+            "Finalización de la operación"
+        ],
+        correcta: 1
+    },
+    {
+        id: 41,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "¿Qué permite la ejecución de la instrucción RETI?",
+        opciones: [
+            "Saltar al código de la rutina de tratamiento de interrupción.",
+            "Notificar al periférico solicitando que se ha aceptado su petición de interrupción.",
+            "Restaurar los valores de los registros PC y RE después del tratamiento de una interrupción",
+            "Lanzar un ciclo de bus de reconocimiento de interrupción"
+        ],
+        correcta: 2
+    },
+    {
+        id: 42,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "¿Quién se encarga en la técnica de vectorización de seleccionar a qué dispositivo se atiende cuando dos o más están pidiendo servicio?",
+        opciones: [
+            "El hardware",
+            "El software",
+            "Tanto el hardware como el software",
+            "Ninguno de los dos"
+        ],
+        correcta: 0
+    },
+    {
+        id: 43,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "La tabla de vectores de interrupción:",
+        opciones: [
+            "se emplea para almacenar si un periférico ha solicitado una petición de interrupción.",
+            "almacena la dirección de comienzo de la RTI de cada periférico.",
+            "guarda los puertos de E/S asignados a cada periférico.",
+            "contiene un puntero al buffer de cada periférico."
+        ],
+        correcta: 1
+    },
+    {
+        id: 44,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "¿Cuál de las siguientes afirmaciones sobre el esquema de gestión encadenada no es cierta?",
+        opciones: [
+            "La línea INT se activa siempre que uno o más periféricos la activen.",
+            "La línea INTA se conecta de forma encadenada a través de todos los periféricos.",
+            "Tiene el inconveniente de no poder conectar más de un número fijo de periféricos.",
+            "Establece una prioridad fija según el orden en que se conecten los periféricos."
+        ],
+        correcta: 2
+    },
+    {
+        id: 45,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "En el esquema de gestión centralizada de prioridades:",
+        opciones: [
+            "se posee una rutina principal de tratamiento de interrupciones que asigna prioridades a cada uno de los periféricos.",
+            "se pueden colocar tantos dispositivos periféricos como se deseen.",
+            "todos los periféricos se conectan a una única línea de interrupciones INT.",
+            "dichas prioridades son gestionadas mediante hardware."
+        ],
+        correcta: 3
+    },
+    {
+        id: 46,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "En la transferencia mediante acceso directo a memoria, ¿quién se encarga de notificar a la CPU la finalización de la operación de E/S?",
+        opciones: [
+            "El controlador DMA mediante una interrupción.",
+            "La memoria principal.",
+            "No es necesaria tal notificación.",
+            "La parte mecánica del dispositivo periférico."
+        ],
+        correcta: 0
+    },
+    {
+        id: 47,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "¿Cuál de las siguientes opciones no corresponde a una modalidad de transferencia mediante acceso directo a memoria?",
+        opciones: [
+            "DMA simple.",
+            "DMA gobernado por memoria principal.",
+            "DMA canal",
+            "DMA disperso"
+        ],
+        correcta: 2
+    },
+    {
+        id: 48,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "¿Para qué sirve la activación de la señal BUSACK en la técnica de acceso directo a memoria?",
+        opciones: [
+            "Para notificar a la CPU de que el controlador DMA de un periférico le solicita el uso del bus.",
+            "Para identificar al periférico que solicita la transferencia.",
+            "Para especificar la dirección de memoria principal que está implicada en la transferencia.",
+            "Ninguna de las anteriores."
+        ],
+        correcta: 3
+    },
+    {
+        id: 49,
+        seccion: "Hardware",
+        nivel: 2,
+        pregunta: "¿Cuál de las siguientes informaciones no es proporcionada al controlador DMA durante el inicio de la operación en la técnica de acceso directo a memoria tradicional?",
+        opciones: [
+            "La dirección del periférico.",
+            "El tipo de la operación",
+            "El número de datos a transferir.",
+            "La dirección de la RTI del periférico."
+        ],
+        correcta: 3
+    },
+    {
+        id: 50,
+        seccion: "Hardware",
+        nivel: 3,
+        pregunta: "¿Cuál de las siguientes informaciones, utilizadas en la transferencia mediante canal de E/S con operaciones encadenadas, indica al canal de E/S que no hay más operaciones pendientes?",
+        opciones: [
+            "El bit de interrupción.",
+            "El bit de encadenamiento.",
+            "El balance de la operación.",
+            "El tipo de la operación."
+        ],
+        correcta: 1
+    },
+    {
+        id: 51,
+        seccion: "Gestión de Ficheros",
+        nivel: 1,
+        pregunta: "¿Cuál es la principal utilidad de los ficheros?",
+        opciones: [
+            "Consultar información",
+            "Guardar temporalmente información",
+            "Organizar jerárquicamente la información",
+            "Guardar de forma ordenada la información"
+        ],
+        correcta: 0
+    },
+    {
+        id: 52,
+        seccion: "Gestión de Ficheros",
+        nivel: 1,
+        pregunta: "¿Qué es un fichero?",
+        opciones: [
+            "Un conjunto de registros de diferente longitud",
+            "Una masa heterogénea de información formada por registros, que se dividen en campos",
+            "Una masa homogénea de información formada por registros, que se divide en campos",
+            "Una masa de información ordenada para poder ser consultada rápidamente"
+        ],
+        correcta: 2
+    },
+    {
+        id: 53,
+        seccion: "Gestión de Ficheros",
+        nivel: 1,
+        pregunta: "¿Qué tipos de registro pueden identificarse dentro del concepto de registro?",
+        opciones: [
+            "De tamaño fijo y de tamaño variable",
+            "Lógico y físico",
+            "Genérico y concreto",
+            "Genérico, lógico y teórico"
+        ],
+        correcta: 1
+    },
+    {
+        id: 54,
+        seccion: "Gestión de Ficheros",
+        nivel: 2,
+        pregunta: "Si todos los campos de un registro tienen longitud fija, ¿cómo será el registro?",
+        opciones: [
+            "Obligatoriamente tiene que ser de longitud fija",
+            "Será obligatoriamente de longitud variable",
+            "Será un registro lógico de tamaño fijo",
+            "Depende, sí el número de campos es variable, tendrá un tamaño variable, si no, su tamaño será fijo"
+        ],
+        correcta: 3
+    },
+    {
+        id: 55,
+        seccion: "Gestión de Ficheros",
+        nivel: 2,
+        pregunta: "¿Qué opción es menor, registro de longitud fija o variable?",
+        opciones: [
+            "Es preferible usar registros de longitud variable, si se quiere ahorrar espacio",
+            "Es preferible usar registros de longitud variable, si se quieren acelera los accesos",
+            "Es preferible usar siempre registro de longitud fija",
+            "Es preferible usar registros de longitud fija, si se quiere ahorrar espacio"
+        ],
+        correcta: 0
+    },
+    {
+        id: 56,
+        seccion: "Gestión de Ficheros",
+        nivel: 1,
+        pregunta: "¿Cuáles son los tipos de ficheros atendiendo a su utilización?",
+        opciones: [
+            "Secuenciales, directos e indexados",
+            "Permanentes, de movimiento y de maniobras",
+            "Históricos y de situación",
+            "De tamaño fijo y variable"
+        ],
+        correcta: 1
+    },
+    {
+        id: 57,
+        seccion: "Gestión de Ficheros",
+        nivel: 1,
+        pregunta: "Normalmente, ¿Cuál es la operación más habitual que se realiza sobre un fichero?",
+        opciones: [
+            "Modificar registros",
+            "Buscar registros",
+            "Escribir registros",
+            "Borrar registros"
+        ],
+        correcta: 1
+    },
+    {
+        id: 58,
+        seccion: "Gestión de Ficheros",
+        nivel: 1,
+        pregunta: "¿Cuáles son los tipos de ficheros atendiendo a sus organización y modo de acceso?",
+        opciones: [
+            "Secuenciales, directos e indexados",
+            "Permanentes, de movimientos y de maniobras",
+            "Históricos y de situación",
+            "De tamaño fijo y variables"
+        ],
+        correcta: 0
+    },
+    {
+        id: 59,
+        seccion: "Gestión de Ficheros",
+        nivel: 2,
+        pregunta: "¿Por qué es conveniente tener ordenado un fichero secuencial?",
+        opciones: [
+            "Porque encontrar un registro que se encuentra almacenado en el fichero es más rápido, en término medio, que si no está ordenado",
+            "Porque de esta forma es más sencillo crear nuevos registros",
+            "Porque es más rápido detectar que el dato que se esta buscando no está en el fichero",
+            "Porque así ocupa menos espacio"
+        ],
+        correcta: 2
+    },
+    {
+        id: 60,
+        seccion: "Gestión de Ficheros",
+        nivel: 2,
+        pregunta: "En un sistema de ficheros con acceso por clave, se conoce como lista invertida:",
+        opciones: [
+            "Una lista en la que por cada valor del índice, se guardan los valores de la clave principal que contiene dicho valor.",
+            "Una lista en la que por cada entrada del valor de la clave principal se guardan los valores de índice que contiene.",
+            "Una lista en la que se almacena un valor de un índice y el de la clave principal asociada",
+            "Un segmento del índice activo que reside la memoria."
+        ],
+        correcta: 0
+    },
+    {
+        id: 61,
+        seccion: "Gestión de Ficheros",
+        nivel: 2,
+        pregunta: "Resultan útiles los ficheros secuenciales para programas que necesiten datos en tiempo real?",
+        opciones: [
+            "Sí, pero siempre que estén ordenados",
+            "Si, son los que se usan en la práctica",
+            "No, para eso sólo se pueden usar ficheros particionados",
+            "No, son preferibles los ficheros directos"
+        ],
+        correcta: 3
+    },
+    {
+        id: 62,
+        seccion: "Gestión de Ficheros",
+        nivel: 1,
+        pregunta: "¿Qué características tienen los ficheros almacenados en cinta magnética?",
+        opciones: [
+            "No direccionales",
+            "Acceso secuencial",
+            "Organización contigua o consecutiva",
+            "Todas las anteriores son correctas"
+        ],
+        correcta: 3
+    },
+    {
+        id: 63,
+        seccion: "Gestión de Ficheros",
+        nivel: 2,
+        pregunta: "Dentro de las técnicas Hashing de búsquedas de elementos en ficheros, para evitar colisiones, existen dos técnicas generales con varios métodos, ¿Qué método NO corresponde a la técnica de direccionamiento abierto?",
+        opciones: [
+            "Rehashing lineal",
+            "Rehashing doble",
+            "Rehashing lineal encadenado",
+            "Rehashing cuadrático"
+        ],
+        correcta: 2
+    },
+    {
+        id: 64,
+        seccion: "Gestión de Ficheros",
+        nivel: 2,
+        pregunta: "Señalara el enunciado FALSO respecto de las estructuras \"hash\":",
+        opciones: [
+            "Las funciones \"hash\" han de producir distribuciones de las claves lo más uniformes posibles para evitar colisiones.",
+            "Entre las técnicas y funciones \"hash\" se encuentra: truncamiento, doblamiento y aritmética modular.",
+            "Las funciones \"hash\" son mejores si envían la mayoría de los casos a las primeras fila de la tabla \"hash\", ya que el recorrido de la tabla empieza siempre por su principio.",
+            "Las funciones \"hash\" deben ser sencillas para su rápida ejecución."
+        ],
+        correcta: 2
+    },
+    {
+        id: 65,
+        seccion: "Gestión de Ficheros",
+        nivel: 2,
+        pregunta: "¿Qué característica tiene que cumplir forzosamente una función hash?",
+        opciones: [
+            "Debe dar posiciones distintas para claves distintas",
+            "Deber dar posiciones iguales para clave distintas",
+            "Debe dar la misma posición para la misma clave",
+            "Debe dar posiciones distintas para claves iguales"
+        ],
+        correcta: 2
+    },
+    {
+        id: 66,
+		seccion: "Gestión de Ficheros",
+    nivel: 2,
+    pregunta: "¿Para que sirve una función hash cuando se habla de ficheros?",
+    opciones: [
+        "Para nada. Solo tiene sentido en las tablas hash",
+        "Para acceder de forma directa al registro buscado, puesto que la función hash devuelve el registro buscado",
+        "Para insertar rápidamente un nuevo registro",
+        "Para acceder de forma directa al registro buscado, puesto que la función hash devuelve la posición del registro buscado"
+    ],
+    correcta: 3
+},
+{
+    id: 67,
+    seccion: "Gestión de Ficheros",
+    nivel: 1,
+    pregunta: "¿Qué tipo de datos se guardan en un fichero histórico?",
+    opciones: [
+        "Los que reflejan la situación del día a día",
+        "Guardan la información no actual procedente de situaciones anteriores",
+        "Guardan de forma indexada toda la información posible",
+        "Guardan el estado actual como si fuera una radiografía"
+    ],
+    correcta: 1
+},
+{
+    id: 68,
+    seccion: "Gestión de Ficheros",
+    nivel: 1,
+    pregunta: "¿Qué son las claves de un fichero?",
+    opciones: [
+        "Uno de los campos de los registros",
+        "El campo o campos por el que ese va a realizar una búsqueda directa o indexada",
+        "Los índices",
+        "Los descriptores del ficheros, que permiten reverenciarlo directamente"
+    ],
+    correcta: 1
+},
+{
+    id: 69,
+    seccion: "Gestión de Ficheros",
+    nivel: 2,
+    pregunta: "¿En que tipos de ficheros se utilizan índices para realizar búsquedas?",
+    opciones: [
+        "Solo en ficheros secuenciales",
+        "Solo en los ficheros indexados",
+        "Ficheros directos e indexados",
+        "Sólo en los ficheros particionados"
+    ],
+    correcta: 2
+},
+{
+    id: 70,
+    seccion: "Gestión de Ficheros",
+    nivel: 2,
+    pregunta: "¿Cuántos componentes suele tener un fichero indexado?",
+    opciones: [
+        "Uno, donde se encuentre toda la información del fichero, puesto que los índices se almacenan en memoria principal",
+        "Dos: zona de almacenamiento de datos y zona de índices",
+        "Tres: zona de datos, zona de claves y zona de índices",
+        "Cuatro: zona de datos, zona de claves, zona de índices y zona de punteros"
+    ],
+    correcta: 1
+},
+{
+    id: 71,
+    seccion: "Gestión de Ficheros",
+    nivel: 2,
+    pregunta: "¿Qué técnicas de indexado de los índices se puede usar en un fichero indexado?",
+    opciones: [
+        "Indexado completo e indexado incompleto",
+        "Indexado completo e indexado jerárquico",
+        "Indexado completo e indexado indirecto",
+        "Indexado directo e indexado indirecto"
+    ],
+    correcta: 1
+},
+{
+    id: 72,
+    seccion: "Gestión de Ficheros",
+    nivel: 2,
+    pregunta: "¿Qué tipos de ficheros deben usarse si se realizan accesos secuenciales?",
+    opciones: [
+        "Sólo se pueden usar ficheros secuenciales",
+        "Se pueden usar ficheros secuenciales, directos o indexados, pero los mejores resultado se obtiene con los indexados",
+        "Es recomendable usar ficheros secuenciales, aunque también se pueden usar los indexados, puesto que son más fáciles de utilizar",
+        "Se deben usar ficheros particionados ordenados"
+    ],
+    correcta: 1
+},
+{
+    id: 73,
+    seccion: "Gestión de Ficheros",
+    nivel: 2,
+    pregunta: "¿Para que se utilizan los ficheros de maniobras?",
+    opciones: [
+        "Para que el programador almacene temporalmente resultados intermedios",
+        "Para que el programa almacene datos que servirán posteriormente para completar la solución de un problema",
+        "Para almacenar temporalmente un campo con el fin de actualizar más tarde un fichero histórico",
+        "Para almacena la situación de la información en un instante dado"
+    ],
+    correcta: 1
+},
+{
+    id: 74,
+    seccion: "Gestión de Ficheros",
+    nivel: 1,
+    pregunta: "¿Cuál de las siguientes afirmaciones es cierta?",
+    opciones: [
+        "Los ficheros permanentes son aquellos que permanecen a través del tiempo",
+        "Los ficheros básico se actualizan a partir de ficheros históricos",
+        "Los ficheros temporales también se denominan ficheros de situación",
+        "Los ficheros de movimiento tienes que ser ficheros secuenciales ordenados"
+    ],
+    correcta: 0
+},
+{
+    id: 75,
+    seccion: "Bases de Datos",
+    nivel: 2,
+    pregunta: "En el modelo relacional. ¿Qué nombre recibe el operador que devuelve como resultado un subconjunto de tuplas de una relación que cumplen una determinada condición?",
+    opciones: [
+        "Diferencia",
+        "Proyección",
+        "Selección",
+        "Ninguno de los operadores anteriores devuelve el subconjunto resultante indicado"
+    ],
+    correcta: 2
+},
+{
+    id: 76,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "¿Qué debemos verificar si nuestro equipo presenta problemas de encendido?",
+    opciones: [
+        "La BIOS",
+        "La configuración del CD ROM",
+        "Los jumpers del Disco Duro",
+        "La fuente de alimentación"
+    ],
+    correcta: 3
+},
+{
+    id: 77,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "¿Qué verificaremos si nuestro equipo enciende pero no consigue arrancar el Sistema Operativo?",
+    opciones: [
+        "El monitor",
+        "La fuente de alimentación",
+        "Los jumpers del Disco Duro",
+        "El puerto COM1"
+    ],
+    correcta: 2
+},
+{
+    id: 78,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "¿Qué realizaremos primero si nuestro equipo enciende pero no conseguimos visualizar nada en el monitor?",
+    opciones: [
+        "Verificar si el monitor está encendido",
+        "Comprobar la configuración del CD ROM",
+        "Chequear los jumpers del Disco Duro",
+        "Testear la fuente de alimentación"
+    ],
+    correcta: 0
+},
+{
+    id: 79,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "Que deberíamos realizar para que en caso de que nuestro dispositivo principal de almacenamiento sufra una avería, sea posible contar con la mayor parte de la información necesaria para continuar con las actividades rutinarias",
+    opciones: [
+        "Una limpieza del registro",
+        "Una desfragmentación de datos",
+        "Un volcado de la memoria",
+        "Una copia de seguridad"
+    ],
+    correcta: 3
+},
+{
+    id: 80,
+    seccion: "Mantenimiento Informático",
+    nivel: 2,
+    pregunta: "Si hemos formateado nuestro disco duro accidentalmente y no tenemos copia de seguridad. ¿podemos recuperar la información?",
+    opciones: [
+        "Sí, siempre que no hayamos escrito en la zona de la información",
+        "Sí, siempre que nuestra fuente de alimentación no haya fallado",
+        "No, sin copia de seguridad no podemos hacer nada",
+        "Sí, siempre que contratemos a un servicio de recuperación de datos"
+    ],
+    correcta: 0
+},
+{
+    id: 81,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "¿Cuál de estos programas es más necesario de cara a un buen mantenimiento preventivo?",
+    opciones: [
+        "Un antivirus",
+        "Un procesador de textos",
+        "Un programa de visualización de imágenes",
+        "Un navegador"
+    ],
+    correcta: 0
+},
+{
+    id: 82,
+    seccion: "Seguridad Informática",
+    nivel: 2,
+    pregunta: "De las siguientes, cuales son técnicas de análisis y detección de virus",
+    opciones: [
+        "Escaneo de Firmas",
+        "Chequeo de Integridad",
+        "Análisis Heurístico",
+        "Todas las anteriores"
+    ],
+    correcta: 3
+},
+{
+    id: 83,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "¿Qué software tenemos que ejecutar para que todos los fragmentos del disco duro estén físicamente más cerca y en forma consecutiva, aumentando la velocidad de lectura?",
+    opciones: [
+        "Desfragmentador de disco",
+        "Recuperador de sectores defectuosos",
+        "Reanimador de disco duro",
+        "Acelerador de disco"
+    ],
+    correcta: 0
+},
+{
+    id: 84,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "¿Con que software de los nombrados detectaremos y repararemos, en su caso, errores lógicos y físicos en los discos duros de nuestro ordenador?",
+    opciones: [
+        "Wordperfect",
+        "Excel 2013",
+        "Scandisk",
+        "Registry editor"
+    ],
+    correcta: 2
+},
+{
+    id: 85,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "El Software de (completar con respuesta) me permite revisar que mi equipo esté funcionando correctamente para evitar posibles daños",
+    opciones: [
+        "Diagnóstico",
+        "Respaldo",
+        "Análisis heurístico",
+        "Recuperación"
+    ],
+    correcta: 0
+},
+{
+    id: 86,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "El mantenimiento preventivo…",
+    opciones: [
+        "Tiene el equipo a punto para evitar fallos",
+        "Corrige los fallos que se han producido",
+        "Detecta las necesidades del usuario para proporcionarle software",
+        "Todas las anteriores"
+    ],
+    correcta: 0
+},
+{
+    id: 87,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "Dí cuáles son las ventajas del mantenimiento preventivo",
+    opciones: [
+        "Disminución del tiempo de parada de los equipos",
+        "Mayor duración de los equipos",
+        "Menor costo de las reparaciones",
+        "Todas las anteriores"
+    ],
+    correcta: 3
+},
+{
+    id: 88,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "De estos objetivos, ¿cuáles se consiguen con un correcto mantenimiento preventivo?",
+    opciones: [
+        "Mayor tiempo entre fallos",
+        "Mayor tiempo de vida del equipo",
+        "Menos fallos",
+        "Todas las anteriores"
+    ],
+    correcta: 3
+},
+{
+    id: 89,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "¿Por qué debemos tener siempre nuestro equipo limpio de polvo?",
+    opciones: [
+        "Porque el polvo puede hacer que el ventilador del micro gire más lento o no gire",
+        "Porque la mezcla del polvo con el ambiente húmedo hace que este se convierta en un magnífico conductor provocando fallos en componentes del equipo",
+        "No hace falta tener limpio el equipo.",
+        "a y b son ciertas"
+    ],
+    correcta: 3
+},
+{
+    id: 90,
+    seccion: "Hardware",
+    nivel: 1,
+    pregunta: "¿Cuál de estos ratones necesita un menor mantenimiento?",
+    opciones: [
+        "Ratón mecánico PS2",
+        "Ratón mecánico USB",
+        "Ratón óptico",
+        "Ratón mecánico inalámbrico"
+    ],
+    correcta: 2
+},
+{
+    id: 91,
+    seccion: "Hardware",
+    nivel: 1,
+    pregunta: "¿Qué deberíamos llevar antes de abrir un equipo informático para evitar daños en el mismo?",
+    opciones: [
+        "Unas gafas protectoras",
+        "Unas gafas de cazoleta",
+        "Un destornillador de estrella",
+        "Una pulsera antiestática"
+    ],
+    correcta: 3
+},
+{
+    id: 92,
+    seccion: "Mantenimiento Informático",
+    nivel: 2,
+    pregunta: "Cuál de los siguientes términos no se considera un tipo de copia de seguridad",
+    opciones: [
+        "Incremental",
+        "Diferencial",
+        "Alterna",
+        "Completa"
+    ],
+    correcta: 2
+},
+{
+    id: 93,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "¿Qué es fundamental para un correcto mantenimiento preventivo?",
+    opciones: [
+        "La rápida actuación en cuanto se produzca un fallo",
+        "Avisar al técnico encargado para la reinstalación del software que falla",
+        "Llevar siempre un destornillador phillips",
+        "La verificación periódica de los componentes software y hardware del equipo informático"
+    ],
+    correcta: 3
+},
+{
+    id: 94,
+    seccion: "Mantenimiento Informático",
+    nivel: 1,
+    pregunta: "¿Cuál de estas acciones no es necesaria para un correcto mantenimiento preventivo?",
+    opciones: [
+        "Desfragmentar el disco duro",
+        "Instalar un antivirus",
+        "Instalar un compresor",
+        "Eliminar archivos temporales"
+    ],
+    correcta: 2
+},
+{
+    id: 95,
+    seccion: "Hardware",
+    nivel: 2,
+    pregunta: "Que habrá que comprobar en la BIOS para arrancar nuestro equipo con un CD de recuperación",
+    opciones: [
+        "Que la hora es correcta",
+        "El orden de arranque de los dispositivos",
+        "Que la versión de la BIOS es la última",
+        "Ninguna de las anteriores"
+    ],
+    correcta: 1
+},
+{
+    id: 96,
+    seccion: "Hardware",
+    nivel: 1,
+    pregunta: "¿Qué es recomendable tener para proteger a nuestro equipo informático de caídas en la red eléctrica?",
+    opciones: [
+        "Un transformador de 220V",
+        "Un SAI",
+        "Una regleta con múltiples conectores",
+        "Todas las anteriores"
+    ],
+    correcta: 1
+},
+{
+    id: 97,
+    seccion: "Hardware",
+    nivel: 2,
+    pregunta: "Que es POST, si estamos hablando de la BIOS",
+    opciones: [
+        "El test que realiza la BIOS a los dispositivos al arrancar",
+        "Power Over Simple Task",
+        "El mensaje de error si no consigue arrancar la BIOS",
+        "Ninguna de las anteriores"
+    ],
+    correcta: 0
+},
+{
+    id: 98,
+    seccion: "Hardware",
+    nivel: 2,
+    pregunta: "Si estamos usando el término ZIF, ¿de qué componente estamos hablando?",
+    opciones: [
+        "Disco duro",
+        "Placa Base",
+        "Memoria",
+        "Tarjeta gráfica"
+    ],
+    correcta: 1
+},
+{
+    id: 99,
+    seccion: "Hardware",
+    nivel: 2,
+    pregunta: "Si la fecha de la BIOS es incorrecta cada vez que arrancamos el ordenador, ¿qué es lo más probable que esté pasando?",
+    opciones: [
+        "Que falle el arranque",
+        "Que no funcione el teclado",
+        "Que se haya agotado la pila de la placa base",
+        "Nada de lo anterior"
+    ],
+    correcta: 2
+},
+{
+    id: 100,
+    seccion: "Hardware",
+    nivel: 2,
+    pregunta: "¿Cómo se pueden configurar normalmente los discos IDE para usarlos como maestro o esclavo?",
+    opciones: [
+        "Entrando en el software que acompaña al disco duro",
+        "Desde Windows",
+        "Con unos jumpers del propio disco duro",
+        "Todas las anteriores son ciertas"
+    ],
+    correcta: 2
+},
+{
+    id: 101,
+    seccion: "Programación Básica",
+    nivel: 1,
+    pregunta: "¿Qué significa HTML?",
+    opciones: [
+        "HyperText Markup Language",
+        "HighText Machine Language",
+        "HyperTool Multi Language",
+        "HomeTool Markup Language"
+    ],
+    correcta: 0
+},
+{
+    id: 102,
+    seccion: "Programación Básica",
+    nivel: 1,
+    pregunta: "¿Cuál de las siguientes es una forma correcta de declarar una variable en JavaScript moderno?",
+    opciones: [
+        "var x = 10;",
+        "let x = 10;",
+        "int x = 10;",
+        "variable x = 10;"
+    ],
+    correcta: 1
+},
+{
+    id: 103,
+    seccion: "Bases de Datos",
+    nivel: 1,
+    pregunta: "¿Qué significa SQL?",
+    opciones: [
+        "Structured Query Language",
+        "Simple Query Language",
+        "Sequential Query Language",
+        "Standard Query Language"
+    ],
+    correcta: 0
+},
+{
+    id: 104,
+    seccion: "Algoritmos y Estructuras",
+    nivel: 2,
+    pregunta: "¿Cuál es la complejidad temporal promedio de QuickSort?",
+    opciones: [
+        "O(n²)",
+        "O(n log n)",
+        "O(n)",
+        "O(log n)"
+    ],
+    correcta: 1
+},
+{
+    id: 105,
+    seccion: "Programación Orientada a Objetos",
+    nivel: 2,
+    pregunta: "¿Qué principio de la POO se refiere a que una clase puede tener múltiples formas?",
+    opciones: [
+        "Encapsulamiento",
+        "Herencia",
+        "Polimorfismo",
+        "Abstracción"
+    ],
+    correcta: 2
+},
+{
+    id: 106,
+    seccion: "Lenguajes de Programación",
+    nivel: 1,
+    pregunta: "¿En qué lenguaje se utiliza principalmente la palabra clave 'async' y 'await'?",
+    opciones: ["Python", "Java", "JavaScript", "C++"],
+    correcta: 2
+},
+{
+    id: 107,
+    seccion: "Bases de Datos",
+    nivel: 2,
+    pregunta: "¿Qué tipo de JOIN devuelve todos los registros de la tabla izquierda, aunque no haya coincidencia en la derecha?",
+    opciones: [
+        "INNER JOIN",
+        "LEFT JOIN",
+        "RIGHT JOIN",
+        "FULL JOIN"
+    ],
+    correcta: 1
+},
+{
+    id: 108,
+    seccion: "Programación Web",
+    nivel: 2,
+    pregunta: "¿Qué propiedad de CSS se usa para centrar un elemento horizontalmente con Flexbox?",
+    opciones: [
+        "justify-content: center;",
+        "align-items: center;",
+        "text-align: center;",
+        "margin: auto;"
+    ],
+    correcta: 0
+},
+{
+    id: 109,
+    seccion: "Programación Básica",
+    nivel: 1,
+    pregunta: "¿Qué es un algoritmo?",
+    opciones: [
+        "Un lenguaje de programación",
+        "Una secuencia de pasos para resolver un problema",
+        "Un tipo de hardware",
+        "Una base de datos"
+    ],
+    correcta: 1
+},
+{
+    id: 110,
+    seccion: "Programación Básica",
+    nivel: 1,
+    pregunta: "¿Cuál es el primer paso en el ciclo de vida del desarrollo de software?",
+    opciones: [
+        "Codificación",
+        "Análisis de requisitos",
+        "Pruebas",
+        "Despliegue"
+    ],
+    correcta: 1
+},
+{
+    id: 111,
+    seccion: "Programación Básica",
+    nivel: 2,
+    pregunta: "¿Qué representa el pseudocódigo?",
+    opciones: [
+        "Código ejecutable",
+        "Descripción informal de un algoritmo",
+        "Un diagrama de flujo",
+        "Una variable en memoria"
+    ],
+    correcta: 1
+},
+{
+    id: 112,
+    seccion: "Programación Básica",
+    nivel: 1,
+    pregunta: "¿Qué es una variable?",
+    opciones: [
+        "Un valor constante",
+        "Un espacio en memoria para almacenar datos",
+        "Una función",
+        "Un bucle"
+    ],
+    correcta: 1
+},
+{
+    id: 113,
+    seccion: "Programación Básica",
+    nivel: 2,
+    pregunta: "¿Cuál es la diferencia entre un compilador y un intérprete?",
+    opciones: [
+        "El compilador traduce todo el código de una vez; el intérprete línea por línea",
+        "Son lo mismo",
+        "El intérprete traduce todo el código de una vez",
+        "Ninguno traduce código"
+    ],
+    correcta: 0
+},
+{
+    id: 128,
+    seccion: "Bases de Datos",
+    nivel: 1,
+    pregunta: "¿Qué es una clave primaria?",
+    opciones: [
+        "Un campo que identifica de forma única cada registro",
+        "Un campo para buscar datos",
+        "Un tipo de consulta",
+        "Una tabla"
+    ],
+    correcta: 0
+},
+{
+    id: 129,
+    seccion: "Bases de Datos",
+    nivel: 2,
+    pregunta: "¿Qué comando SQL se usa para seleccionar datos?",
+    opciones: ["INSERT", "UPDATE", "SELECT", "DELETE"],
+    correcta: 2
+},
+{
+    id: 130,
+    seccion: "Algoritmos y Estructuras",
+    nivel: 3,
+    pregunta: "¿Qué estructura de datos se usa para FIFO (First In, First Out)?",
+    opciones: [
+        "Pila",
+        "Cola",
+        "Árbol",
+        "Lista enlazada"
+    ],
+    correcta: 1
+},
+{
+    id: 131,
+    seccion: "Programación Orientada a Objetos",
+    nivel: 2,
+    pregunta: "¿Qué es la herencia en POO?",
+    opciones: [
+        "Ocultar detalles internos",
+        "Una clase hija hereda propiedades de la padre",
+        "Ejecutar métodos en tiempo de ejecución",
+        "Crear múltiples instancias"
+    ],
+    correcta: 1
+},
+{
+    id: 132,
+    seccion: "Lenguajes de Programación",
+    nivel: 1,
+    pregunta: "¿Qué lenguaje es interpretado por defecto?",
+    opciones: ["C++", "Java", "Python", "Rust"],
+    correcta: 2
+},
+{
+    id: 133,
+    seccion: "Programación Web",
+    nivel: 2,
+    pregunta: "¿Qué es JavaScript usado para?",
+    opciones: [
+        "Estilos visuales",
+        "Lógica del lado cliente",
+        "Estructura HTML",
+        "Almacenamiento de datos"
+    ],
+    correcta: 1
+},
+{
+    id: 134,
+    seccion: "Redes",
+    nivel: 1,
+    pregunta: "¿Qué es el protocolo HTTP?",
+    opciones: [
+        "Para transferir archivos",
+        "Para comunicación web",
+        "Para correo electrónico",
+        "Para bases de datos"
+    ],
+    correcta: 1
+},
+{
+    id: 135,
+    seccion: "Seguridad Informática",
+    nivel: 2,
+    pregunta: "¿Qué es un firewall?",
+    opciones: [
+        "Un virus",
+        "Un sistema de protección contra accesos no autorizados",
+        "Un lenguaje de programación",
+        "Una base de datos"
+    ],
+    correcta: 1
+},
+{
+    id: 136,
+    seccion: "Sistemas Operativos",
+    nivel: 1,
+    pregunta: "¿Qué es el kernel en un SO?",
+    opciones: [
+        "La interfaz gráfica",
+        "El núcleo del sistema operativo",
+        "Un programa de usuario",
+        "Un dispositivo de hardware"
+    ],
+    correcta: 1
+},
+{
+    id: 137,
+    seccion: "Ofimática",
+    nivel: 1,
+    pregunta: "¿Qué función de Excel suma valores?",
+    opciones: ["AVERAGE", "SUM", "COUNT", "MAX"],
+    correcta: 1
+},
+{
+    id: 138,
+    seccion: "Programación Básica",
+    nivel: 3,
+    pregunta: "¿Qué es recursividad?",
+    opciones: [
+        "Un bucle infinito",
+        "Una función que se llama a sí misma",
+        "Una variable global",
+        "Un error de compilación"
+    ],
+    correcta: 1
+},
+{
+    id: 139,
+    seccion: "Bases de Datos",
+    nivel: 3,
+    pregunta: "¿Qué es normalización?",
+    opciones: [
+        "Aumentar el tamaño de la BD",
+        "Reducir redundancia en tablas",
+        "Encriptar datos",
+        "Crear índices"
+    ],
+    correcta: 1
+},
+{
+    id: 140,
+    seccion: "Algoritmos y Estructuras",
+    nivel: 2,
+    pregunta: "¿Qué algoritmo busca en un array ordenado eficientemente?",
+    opciones: ["Búsqueda lineal", "Búsqueda binaria", "Ordenamiento burbuja", "Inserción"],
+    correcta: 1
+},
+{
+    id: 141,
+    seccion: "Hardware",
+    nivel: 1,
+    pregunta: "¿Qué componente del ordenador se encarga de ejecutar las instrucciones?",
+    opciones: [
+        "Memoria RAM",
+        "Procesador (CPU)",
+        "Disco duro",
+        "Tarjeta gráfica"
+    ],
+    correcta: 1
+},
+{
+    id: 142,
+    seccion: "Redes",
+    nivel: 2,
+    pregunta: "¿Qué protocolo se usa para la transferencia segura de archivos?",
+    opciones: [
+        "HTTP",
+        "FTP",
+        "SFTP",
+        "SMTP"
+    ],
+    correcta: 2
+},
+{
+    id: 143,
+    seccion: "Seguridad Informática",
+    nivel: 2,
+    pregunta: "¿Qué es un ataque de phishing?",
+    opciones: [
+        "Un virus que encripta archivos",
+        "Suplantación de identidad para obtener datos personales",
+        "Sobrecarga del servidor",
+        "Inyección de código SQL"
+    ],
+    correcta: 1
+},
+{
+    id: 144,
+    seccion: "Ofimática",
+    nivel: 1,
+    pregunta: "En Excel, ¿qué atajo de teclado guarda el documento?",
+    opciones: [
+        "Ctrl + P",
+        "Ctrl + S",
+        "Ctrl + C",
+        "Ctrl + V"
+    ],
+    correcta: 1
+},
+{
+    id: 145,
+    seccion: "Programación",
+    nivel: 1,
+    pregunta: "¿Qué estructura se usa para tomar decisiones en programación?",
+    opciones: ["for", "while", "if", "switch"],
+    correcta: 2
+},
+{
+    id: 146,
+    seccion: "Bases de Datos",
+    nivel: 1,
+    pregunta: "¿Qué comando SQL actualiza registros en una tabla?",
+    opciones: ["SELECT", "UPDATE", "INSERT", "DELETE"],
+    correcta: 1
+},
     {
         id: 147,
         seccion: "Sistemas Operativos",
